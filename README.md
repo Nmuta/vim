@@ -12,11 +12,11 @@ To enter the crontab for your system, type:
 <blockquote>  crontab -e  </blockquote> 
 
 in your terminal.   We are now in vim.  Type i to get into 'insert' mode.  Then paste the following lines into your crontab: 
-<blockquote>
+ 
 # Minute   Hour   Day of Month       Month          Day of Week        Command
 # (0-59)  (0-23)     (1-31)    (1-12 or Jan-Dec)  (0-6 or Sun-Sat)
    */2       *          *             *                *               cd ~/Desktop  && touch time.txt
-</blockquote>
+ 
 
 
 In order to exit insert mode, type :c
