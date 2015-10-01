@@ -1,0 +1,8 @@
+
+alias hunters="cd ~/Documents/projects/hunters"
+
+alias web="cd ~/Documents/projects/web"
+
+alias spawn_angular="mkdir app && cd app && touch index.html && mkdir js && cd js && touch app.js && touch {app,controllers,directives,filters,services}.js && cd ../../"
+
+
